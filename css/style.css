@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+/*---------------------------HEADER------------------------------*/
+.header {
+    height: 180px;
+    background-color: #ffffff;
+    margin: auto 170px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.logo {
+    width: 15%;
+}
+
+.header .left {
+    float: left;
+    margin-top: 20px;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header li {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.header li a {
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: bold;
+    margin-left: 50px;
+}
+/*---------------------------/HEADER------------------------------*/
+
+/*---------------------------NAVIGATION------------------------------*/
+nav {
+    height: 80px;
+    background-color: #2980b9;
+}
+
+nav .container {
+    height: 80px;
+    margin: auto 170px;
+}
+
+nav ul {
+    float: left;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.search-box {
+    float: right;
+    margin-top: 14px;
+}
+
+input {
+    width: 15%;
+    height: 50px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #2980b9;
+    box-shadow: 1px 2px #2573a7;
+    font-size: 16px;
+    text-indent: 10px;
+}
+/*---------------------------/NAVIGATION------------------------------*/
+/*---------------------------CONTENT_POSTS------------------------------*/
+.container-section {
+    display: inline-block;
+    background-color: #f5f5f5;
+}
+
+.content {
+    display: block;
+    margin: 80px 170px;
+}
+
+.posts {
+    width: 60%;
+    margin-bottom: 30px;
+    float: left;
+}
+
+article {
+    background-color: #ffffff;
+    padding: 50px 40px 20px 40px;
+    margin-bottom: 40px;
+    border: 1px solid #d4d2d2;
+    border-radius: 3px;
+}
+
+article header h1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 33px;
+}
+
+article header ul {
+    list-style-type: none;
+}
+
+article header li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+article header li a{
+    text-decoration: none;
+    color: #2980b9;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+article img {
+    float: left;
+}
+
+article p {
+    color: #3a3a3a;
+    font-size: 17px;
+    margin: 5px 10px;
+}
+
+article section p {
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+article .btn {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    float: right;
+    width: 20%;
+    height: 35px;
+    background-color: #2980b9;
+    border: 1px solid #2675aa;
+    border-radius: 3px;
+    position: relative;
+}
+
+article section a {
+    padding-top: 8px;
+}
+
+article .btn::after {
+    outline: none;
+    background-color: #236a99;
+    transition: all .4s;
+}
+
+article .btn:hover {
+    background-color: #236a99;
+    transition: all .4s;
+}
+
+article .btn:active {
+    outline: none;
+}
+
+article .fa-share {
+    margin-left: 10px;
+}
+
+article footer {
+    display: inline-block;
+    width: 100%;
+}
+
+article footer a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+article footer .fa-facebook-square {
+    font-size: 15px;
+    margin: 0 10px 0 5px;
+}
+/*---------------------------/CONTENT_POST------------------------------*/
+
+/*---------------------------CONTENT_EMAIL------------------------------*/
+.register {
+    float: left;
+    width: 35%;
+    margin-left: 5%;
+}
+
+.register .email {
+    margin-bottom: 50px;
+    background-color: #2980b9;
+}
+
+.register .col {
+    padding: 40px 20px 20px 20px;
+}
+
+.register .email h1{
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.register .email p {
+    margin-bottom: 20px;
+    color: #c9c8c8;
+}
+
+.email-box {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.register .email a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 25px 20px 25px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+}
+
+.register .topic {
+    background-color: #ffffff;
+}
+
+.register .topic h1 {
+    font-size: 22px;
+}
+
+.topic ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.topic li {
+    margin-top: 30px;
+}
+
+.topic li a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+/*---------------------------/CONTENT_EMAIL------------------------------*/
+
+/*---------------------------FOOTER------------------------------*/
+.footer {
+    height: 100px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .text-footer{
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+
+/*---------------------------/FOOTER------------------------------*/
