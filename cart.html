@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!--favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Box icon-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tele shop</title>
+</head>
+<body>
+    <header id="home" class="header"> <!-- Header begin-->
+        <nav class="nav"> <!-- nav begin -->
+            <div class="navigation container">
+                <div class="logo">
+                    <h1>
+                        <a href="index.html">Tele Shop</a>
+                    </h1>
+                </div>
+                <div class="menu"> <!-- Menu begin-->
+                    <div class="top-nav"> <!--top-nav begin-->
+                        <div class="logo">
+                            <h1>
+                                <a href="index.html">Tele shop</a>
+                            </h1>
+                        </div>
+                        <div class="close">
+                            <i class='bx bx-x'></i>
+                        </div>
+                    </div>
+                    <!-- top-nav end-->
+                    
+                    <ul class="nav-list"> <!--nav-list begin-->
+                        <li class="nav-item scroll-link"><a href="index.html" class="nav-link">Trang chủ</a></li>
+                        <li class="nav-item"><a href="products.html" class="nav-link">Sản Phẩm</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Liên Hệ</a></li>
+                        <li class="nav-item"><a href="login.html" class="nav-link">Tài Khoản</a></li>
+                        <li class="nav-item"><a href="cart.html" class="nav-link icon"><i class='bx bx-shopping-bag'></i></a></li>
+                    </ul> <!--nav-list end-->
+                    
+                </div> <!--Menu end-->
+                
+                <a href="cart.html" class="cart-icon">
+                    <i class='bx bx-shopping-bag'></i>
+                </a>
+                <div class="phone-nav">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </div>
+        </nav> <!-- nav end-->
+    </header> <!-- Header end-->
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="cart">
+                    <h2>Giỏ Hàng <span count-cart>(3 sản phẩm)</span></h2>
+                    <div class="cart-item"> <!-- cart item 1 begin -->
+                        <div class="button">
+                            <span class="delete-btn"><i class='bx bx-x'></i></span>
+                        </div>
+                        <div class="image-pro">
+                            <img src="images/advert3.png" alt="">
+                        </div>
+                        <div class="description">
+                            <span>Tên sản phẩm</span>
+                            <span>Loại sản phẩm</span>
+                            <span>Màu sắc</span>
+                        </div>
+                        <div class="quantity">
+                            <button class="plus-btn" type="button" name="button">
+                                <img src="images/icons-add.svg" alt="">
+                            </button>
+                            <input type="number" name="number" value="1" min="1" readonly>
+                            <button class="minus-btn" type="button" name="button">
+                                <img src="images/icons-remove.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="total-price">200.000đ</div>
+                    </div> <!-- cart item 1 end -->
+                    <div class="cart-item"> <!-- cart item 1 begin -->
+                        <div class="button">
+                            <span class="delete-btn"><i class='bx bx-x'></i></span>
+                        </div>
+                        <div class="image-pro">
+                            <img src="images/advert3.png" alt="">
+                        </div>
+                        <div class="description">
+                            <span>Tên sản phẩm</span>
+                            <span>Loại sản phẩm</span>
+                            <span>Màu sắc</span>
+                        </div>
+                        <div class="quantity">
+                            <button class="plus-btn" type="button" name="button">
+                                <img src="images/icons-add.svg" alt="">
+                            </button>
+                            <input type="number" name="number" value="1" min="1" readonly>
+                            <button class="minus-btn" type="button" name="button">
+                                <img src="images/icons-remove.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="total-price">200.000đ</div>
+                    </div> <!-- cart item 1 end -->
+                    <div class="cart-item"> <!-- cart item 1 begin -->
+                        <div class="button">
+                            <span class="delete-btn"><i class='bx bx-x'></i></span>
+                        </div>
+                        <div class="image-pro">
+                            <img src="images/advert3.png" alt="">
+                        </div>
+                        <div class="description">
+                            <span>Tên sản phẩm</span>
+                            <span>Loại sản phẩm</span>
+                            <span>Màu sắc</span>
+                        </div>
+                        <div class="quantity">
+                            <button class="plus-btn" type="button" name="button">
+                                <img src="images/icons-add.svg" alt="">
+                            </button>
+                            <input type="number" name="number" value="1" min="1" readonly>
+                            <button class="minus-btn" type="button" name="button">
+                                <img src="images/icons-remove.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="total-price">200.000đ</div>
+                    </div> <!-- cart item 1 end -->
+                </div>
+                <div class="total">
+                    <table>
+                        <tr>
+                        <td>Tạm tính</td>
+                        <td class="demo-price">600.000đ</td>
+                        </tr>
+                        <tr>
+                            <td>Phí vận chuyển</td>
+                            <td>50.000đ</td>
+                        </tr>
+                        <tr>
+                            <td>Tổng</td>
+                            <td class="real-price">650.000đ</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="order">
+                    <button class="btn-order">Tiến hành đặt hàng</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <div class="scroll-top hide">
+        <i class='bx bx-chevron-up-circle'></i>
+    </div>
+    <footer id="footer" class="section footer"> <!--Footer begin-->
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-center">
+                    <h3>TÍNH NĂNG BỔ SUNG</h3>
+                    <a href="#">Thương hiệu</a>
+                    <a href="#">Thẻ quà tặng</a>
+                    <a href="#">Liên kết</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-center">
+                    <h3>THÔNG TIN</h3>
+                    <a href="#">Giới thiệu Tele Shop</a>
+                    <a href="#">Chính sách bảo mật</a>
+                    <a href="#">Thông tin liên hệ</a>
+                    <a href="#">Hỏi đáp</a>
+                </div>
+                <div class="footer-center">
+                    <h3>TÀI KHOẢN</h3>
+                    <a href="#">Tài khoản của tôi</a>
+                    <a href="#">Lịch sử đặt hàng</a>
+                </div>
+                <div class="footer-center">
+                    <h3>LIÊN HỆ</h3>
+                    <a href="#">Đường 3/2,P.Xuân Khánh, Q.Ninh Kiều, TP.Cần Thơ</a>
+                    <a href="#">Email: teleshop@gmail.com</a>
+                    <a href="#">Điện thoại: (84-292) 3832663</a>
+                    <a href="#">Fax: (84-292) 3838474</a>
+                </div>
+            </div>
+        </div>
+    </footer> <!--Footer end-->
+    <!--Custom Script-->
+    <script src="js/main.js"></script>
+</body>
+</html>
